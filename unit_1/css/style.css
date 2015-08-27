@@ -1,25 +1,28 @@
 body {
-	text-align:center;
-	background:url("images/makeupeye.jpg");
-	background-size:cover;
-	font-family:muli; 
-	font-weight:lighter;
-	color:#616161;
+	text-align: center;
+	background: url("images/makeupeye.jpg");
+	background-size: cover;
+	font-family: muli; 
+	font-weight: lighter;
+	color: #616161;
 }
 h1 {
 	font-size: 64px;
 	text-transform: uppercase;
 }
 p {
-	font-size:32px;
+	font-size: 32px;
 }
 a:link {
-	color:#FF886D;
+	color: #FF886D;
 }
 a:hover {
-	color:#616161;
+	color: #616161;
 }
 
 #slogan {
 	font-style:italic;
+}
+ul {
+	text-align:center;
 }
