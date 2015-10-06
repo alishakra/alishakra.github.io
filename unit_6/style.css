@@ -163,11 +163,10 @@ p {
 	margin-right:3%;
 	margin-top:1%;
 	clear:both;
-
 }
 .caitlyn img {
-	border-color:solid white;
-	border-width:1em;
+	border: 2px solid white;
+	position:relative;
 	width:100%;
 	height:auto;
 }
