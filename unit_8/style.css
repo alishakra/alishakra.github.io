@@ -197,7 +197,7 @@ ul {
 	display:block;
 	text-align:center;
 	font-family: 'Raleway', sans-serif;
-	font-size:1em;
+	font-size:.8em;
 	margin-top:1%;
 	width:100%;
 }
@@ -218,7 +218,7 @@ ul {
   	text-transform: uppercase;
 }
 	.logo img {
-		width:70%;
+		width:72%;
 		padding-top:3%;
 		padding-bottom:3%;
 	}
