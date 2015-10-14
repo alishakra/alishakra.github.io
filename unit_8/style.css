@@ -269,3 +269,80 @@ ul {
 	margin:2% 5%;
 }
 }
+@media only screen and (max-width:800px) {
+
+	nav {
+	display:block;
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	font-size:1.5em;
+	margin-top:1%;
+	width:100%;
+}
+	.clearfix a:hover {
+	background-color: #061736;
+	color:white;
+}
+	.clearfix a {
+	float:none;
+	clear:both;
+	font-family: 'Raleway', sans-serif;
+  	text-decoration: none;
+  	color: #aaaaaa;
+  	padding: .5em;
+  	margin:3%;
+  	background-color: #ABC5F4;
+  	color: white;
+  	text-transform: uppercase;
+}
+	.logo img {
+		width:72%;
+		padding-top:3%;
+		padding-bottom:3%;
+	}
+	.shopicon img {
+		width:30%;
+	}
+	.secondbanner img {
+		float:none;
+		width:50px;
+	}
+	.shop1 img {
+		width:80%;
+		margin:2% 10%;
+		clear:both;
+	}
+	.shop2 img {
+		width:80%;
+		margin:2% 10%;
+		clear:both;
+	}
+	.shop3 img {
+		width:80%;
+		margin:2% 10%;
+		clear:both;
+		}
+	.shop4 img {
+		width:80%;
+		margin:2% 10%;
+		clear:both;
+}
+.zodiacbanner img {
+	display:none;
+}
+.responsivezodiac img {
+	display:block;
+	width:80%;
+	margin:3% 10%;
+}
+.column1, .column2 {
+	display:none;
+}
+.column3 {
+	width:40%;
+	margin:2% 5%;
+}
+.column4 {
+	width: 40%;
+	margin:2% 5%;
+}
