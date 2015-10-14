@@ -223,7 +223,7 @@ ul {
 		padding-bottom:3%;
 	}
 	.shopicon img {
-		width:20%;
+		width:25%;
 	}
 	.secondbanner img {
 		float:none;
@@ -261,11 +261,11 @@ ul {
 	display:none;
 }
 .column3 {
-	width:45%;
+	width:40%;
 	margin:2% 5%;
 }
 .column4 {
-	width: 45%;
+	width: 40%;
 	margin:2% 5%;
 }
 }
