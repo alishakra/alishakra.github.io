@@ -191,15 +191,13 @@ li {
 ul {
 	list-style:none;
 }
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:320px) {
 
 	nav {
-	clear:both;
-	float:none;
 	display:block;
 	text-align:center;
 	font-family: 'Raleway', sans-serif;
-	font-size:1.5em;
+	font-size:1em;
 	margin-top:1%;
 	width:100%;
 }
@@ -208,6 +206,8 @@ ul {
 	color:white;
 }
 	.clearfix a {
+	float:none;
+	clear:both;
 	font-family: 'Raleway', sans-serif;
   	text-decoration: none;
   	color: #aaaaaa;
