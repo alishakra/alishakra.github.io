@@ -191,7 +191,7 @@ li {
 ul {
 	list-style:none;
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:800px) {
 
 	nav {
 	clear:both;
@@ -220,9 +220,10 @@ ul {
 	.logo img {
 		width:70%;
 		padding-top:3%;
+		padding-bottom:3%;
 	}
 	.shopicon img {
-		width:25%;
+		width:20%;
 	}
 	.secondbanner img {
 		float:none;
