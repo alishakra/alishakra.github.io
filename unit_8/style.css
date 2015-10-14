@@ -192,7 +192,7 @@ ul {
 	list-style:none;
 }
 }
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 400px) {
 	nav {
 	float:none;
 }
@@ -203,5 +203,9 @@ ul {
 	.secondbanner img {
 		float:none;
 		width:50px;
+	}
+	.zodiacbanner img {
+		width:100%;
+		background-image: url ('css/images/responsive.gif');
 	}
 }
