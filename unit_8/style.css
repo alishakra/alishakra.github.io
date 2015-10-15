@@ -196,7 +196,7 @@ ul {
 	display:block;
 	text-align:center;
 	font-family: 'Raleway', sans-serif;
-	font-size:1em;
+	font-size:.7em;
 	margin-top:1%;
 	width:100%;
 	}	
@@ -222,7 +222,7 @@ ul {
 		padding-bottom:3%;
 	}
 	.shopicon img {
-		width:30%;
+		width:50%;
 	}
 	.secondbanner img {
 		float:none;
@@ -275,7 +275,7 @@ ul {
 	display:block;
 	text-align:center;
 	font-family: 'Raleway', sans-serif;
-	font-size:1.5em;
+	font-size:1.8em;
 	margin-top:1%;
 	width:100%;
 }
