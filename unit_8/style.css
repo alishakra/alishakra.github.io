@@ -261,28 +261,28 @@ ul {
 @media only screen and (max-width:800px) {
 
 	nav {
-		clear:both;
-		text-align:center;
-		font-family: 'Raleway', sans-serif;
-		font-size:1.5em;
-		margin-top:1%;
-		width:100%;
+	text-align:center;
+	float:none;
+	font-family: 'Raleway', sans-serif;
+	font-size:1.5em;
+	margin-top:1%;
+	width:100%;
 	}
-	.clearfix a:hover {
-		background-color: #061736;
-		color:white;
+	.nav a {
+	font-family: 'Raleway', sans-serif;
+  	text-decoration: none;
+  	color: #aaaaaa;
+  	display: inline-block;
+  	padding: .5em;
+  	margin: 1em;
+  	background-color: #ABC5F4;
+  	color: white;
+  	text-transform: uppercase;
+  	text-decoration:none;
 	}
-	.clearfix a {
-		float:none;
-		clear:both;
-		font-family: 'Raleway', sans-serif;
-  		text-decoration: none;
-  		color: #aaaaaa;
-  		padding: .8em;
-  		margin:3%;
-  		background-color: #ABC5F4;
-  		color: white;
-  		text-transform: uppercase;
+	.nav a:hover {
+	background-color: #061736;
+	color:white;
 	}
 	.logo img {
 		width:65%;
