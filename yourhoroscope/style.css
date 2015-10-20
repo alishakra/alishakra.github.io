@@ -166,6 +166,13 @@ footer {
 .zodiacabout a:hover {
 	color:#aaaaaa;
 }
+.zodiacabout img {
+	float:left;
+	display:block;
+	padding:0;
+	width:5%;
+	transform: rotate(15deg);
+}
 h1 {
 	color:white;
 	text-transform:uppercase;
@@ -180,8 +187,15 @@ h2 {
 	line-height:1.5em;
 	font-family: 'Raleway', sans-serif;
 	padding:.5em;
-	width:10%;
+	width:8em;
 	text-align:center;
+}
+h3 {
+	padding-top:.5em;
+	color:white;
+	font-size:1em;
+	text-transform:uppercase;
+	font-family: 'Raleway', sans-serif;
 }
 p {
 	color:white;
