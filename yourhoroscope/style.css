@@ -168,9 +168,7 @@ footer {
 }
 .zodiacabout img {
 	float:left;
-	display:block;
-	padding:0;
-	width:5%;
+	padding:.5em;
 	transform: rotate(15deg);
 }
 h1 {
@@ -178,7 +176,7 @@ h1 {
 	text-transform:uppercase;
 	font-size: 1.5em;
 	font-family: 'Raleway', sans-serif;
-	padding:.5em 0 .5em 0;
+	padding:3em 0 .5em 0;
 }
 h2 {
 	color:white;
@@ -216,18 +214,24 @@ ul {
 }
 @media only screen and (max-width:340px) {
 
-	nav {
-	display:block;
-	text-align:center;
+	.nav a {
 	font-family: 'Raleway', sans-serif;
-	font-size:1em;
-	margin-top:1%;
-	width:100%;
-	}	
-	.clearfix a:hover {
-	background-color: #061736;
+  	text-decoration: none;
+  	color: #aaaaaa;
+  	display: inline-block;
+  	padding: .5em;
+  	margin: 1em;
+  	font-size:1em;
+  	background-color:#061736;
+  	color: white;
+  	text-transform: uppercase;
+  	text-decoration:none;
+	}
+	.nav a:hover {
+	background-color:#ABC5F4;
 	color:white;
 	}
+
 	.clearfix a {
 	float:none;
 	clear:both;
@@ -296,6 +300,10 @@ ul {
 
 @media only screen and (max-width:800px) {
 
+	.zodiacabout img {
+	display:none;
+	}
+
 	nav {
 	text-align:center;
 	float:none;
@@ -311,15 +319,16 @@ ul {
   	display: inline-block;
   	padding: .5em;
   	margin: 1em;
-  	background-color: #ABC5F4;
+  	font-size:1em;
+  	background-color:#061736;
   	color: white;
   	text-transform: uppercase;
   	text-decoration:none;
-	}
-	.nav a:hover {
-	background-color: #061736;
+}
+.nav a:hover {
+	background-color:#ABC5F4;
 	color:white;
-	}
+}
 	.logo img {
 		width:65%;
 		padding-top:3%;
