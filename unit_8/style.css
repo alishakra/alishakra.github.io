@@ -1,7 +1,7 @@
 * { margin:0; padding:0; box-sizing:border-box;}
 
 body { 
-	background:url("css/images/lipbackground.gif") no-repeat; 
+	background:url("css/images/translip.gif"); 
 	background-attachment:fixed;
 	background-size:cover;
 }
@@ -36,13 +36,13 @@ nav {
   	display: inline-block;
   	padding: .5em 1em .5em 1em;
   	margin: 1em;
-  	background-color: #ABC5F4;
+  	background-color:#061736;
   	color: white;
   	text-transform: uppercase;
   	text-decoration:none;
 }
 .nav a:hover {
-	background-color: #061736;
+	background-color:#ABC5F4;
 	color:white;
 }
 .zodiacbanner img {
