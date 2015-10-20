@@ -154,10 +154,11 @@ footer {
 	color:#aaaaaa;
 }
 #about {
-	width:100%;
-	padding:5em;
+	width:96.5%;
+	margin:auto;
+	padding:2em;
 	background-color: #061736;
-	margin-top:3%;
+	margin-top:5%;
 	clear:both;
 }
 h1 {

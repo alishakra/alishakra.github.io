@@ -154,10 +154,11 @@ footer {
 	color:#aaaaaa;
 }
 #about {
-	width:100%;
-	padding:5em;
+	width:96.5%;
+	margin:auto;
+	padding:2em;
 	background-color: #061736;
-	margin-top:3%;
+	margin-top:5%;
 	clear:both;
 }
 h1 {
@@ -264,6 +265,92 @@ ul {
 	}
 	}
 
+media only screen and (max-width:340px) {
+
+	.nav a {
+	font-family: 'Raleway', sans-serif;
+  	text-decoration: none;
+  	color: #aaaaaa;
+  	display: inline-block;
+  	padding: .5em;
+  	margin: 1em;
+  	font-size:1em;
+  	background-color:#061736;
+  	color: white;
+  	text-transform: uppercase;
+  	text-decoration:none;
+	}
+	.nav a:hover {
+	background-color:#ABC5F4;
+	color:white;
+	}
+
+	.clearfix a {
+	float:none;
+	clear:both;
+	font-family: 'Raleway', sans-serif;
+  	text-decoration: none;
+  	color: #aaaaaa;
+  	font-size:.5em;
+  	padding: .5em;
+  	margin:3%;
+  	background-color: #ABC5F4;
+  	color: white;
+  	text-transform: uppercase;
+	}
+	.logo img {
+		width:72%;
+		padding-top:5%;
+		padding-bottom:3%;
+	}
+	.shopicon img {
+		float:right;
+	}
+	.secondbanner img {
+		float:none;
+		width:50px;
+	}
+	.shop1 img {
+		width:80%;
+		margin:2% 10%;
+		clear:both;
+	}
+	.shop2 img {
+		width:80%;
+		margin:2% 10%;
+		clear:both;
+	}
+	.shop3 img {
+		width:80%;
+		margin:2% 10%;
+		clear:both;
+		}
+	.shop4 img {
+		width:80%;
+		margin:2% 10%;
+		clear:both;
+	}
+	.zodiacbanner img {
+		display:none;
+	}
+	.responsivezodiac img {
+		display:block;
+		width:80%;
+		margin:3% 10%;
+	}
+	.column1, .column2 {
+		display:none;
+	}
+	.column3 {
+		width:40%;
+		margin:2% 5%;
+	}
+	.column4 {
+		width: 40%;
+		margin:2% 5%;
+	}
+	}
+
 @media only screen and (max-width:800px) {
 
 	nav {
@@ -281,15 +368,16 @@ ul {
   	display: inline-block;
   	padding: .5em;
   	margin: 1em;
-  	background-color: #ABC5F4;
+  	font-size:1em;
+  	background-color:#061736;
   	color: white;
   	text-transform: uppercase;
   	text-decoration:none;
-	}
-	.nav a:hover {
-	background-color: #061736;
+}
+.nav a:hover {
+	background-color:#ABC5F4;
 	color:white;
-	}
+}
 	.logo img {
 		width:65%;
 		padding-top:3%;

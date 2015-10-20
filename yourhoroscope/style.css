@@ -153,10 +153,11 @@ footer {
 	color:#aaaaaa;
 }
 #about {
-	width:100%;
-	padding:5em;
+	width:80%;
+	margin:auto;
+	padding:2em;
 	background-color: #061736;
-	margin-top:3%;
+	margin-top:5%;
 	clear:both;
 }
 .zodiacabout a {
@@ -212,7 +213,7 @@ li {
 ul {
 	list-style:none;
 }
-@media only screen and (max-width:340px) {
+media only screen and (max-width:340px) {
 
 	.nav a {
 	font-family: 'Raleway', sans-serif;
@@ -299,10 +300,6 @@ ul {
 	}
 
 @media only screen and (max-width:800px) {
-
-	.zodiacabout img {
-	display:none;
-	}
 
 	nav {
 	text-align:center;
