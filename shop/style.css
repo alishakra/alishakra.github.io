@@ -195,15 +195,28 @@ ul {
 @media only screen and (max-width:340px) {
 
 	nav {
-	display:block;
-	text-align:center;
-	font-family: 'Raleway', sans-serif;
-	font-size:1em;
 	margin-top:1%;
-	width:100%;
-	}	
-	.clearfix a:hover {
-	background-color: #061736;
+	float:none;
+	}
+	.nav a {
+	text-align:center;
+	font-size:1.3em;
+	float:none;
+	font-family: 'Raleway', sans-serif;
+  	text-decoration: none;
+  	color: #aaaaaa;
+  	display: block;
+  	width:60%;
+  	padding: .7em;
+  	margin: auto;
+  	margin-top:1em;
+  	background-color:#061736;
+  	color: white;
+  	text-transform: uppercase;
+  	text-decoration:none;
+	}
+	.nav a:hover {
+	background-color:#ABC5F4;
 	color:white;
 	}
 	.clearfix a {
@@ -275,27 +288,28 @@ ul {
 @media only screen and (max-width:800px) {
 
 	nav {
-	text-align:center;
-	float:none;
-	font-family: 'Raleway', sans-serif;
-	font-size:1.5em;
 	margin-top:1%;
-	width:100%;
+	float:none;
 	}
 	.nav a {
+	text-align:center;
+	font-size:1.3em;
+	float:none;
 	font-family: 'Raleway', sans-serif;
   	text-decoration: none;
   	color: #aaaaaa;
-  	display: inline-block;
-  	padding: .5em;
-  	margin: 1em;
-  	background-color: #ABC5F4;
+  	display: block;
+  	width:60%;
+  	padding: .7em;
+  	margin: auto;
+  	margin-top:1em;
+  	background-color:#061736;
   	color: white;
   	text-transform: uppercase;
   	text-decoration:none;
 	}
 	.nav a:hover {
-	background-color: #061736;
+	background-color:#ABC5F4;
 	color:white;
 	}
 	.logo img {

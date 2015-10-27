@@ -192,6 +192,7 @@ ul {
 	float:none;
 	}
 	.nav a {
+	text-align:center;
 	font-size:1.3em;
 	float:none;
 	font-family: 'Raleway', sans-serif;
@@ -206,10 +207,6 @@ ul {
   	color: white;
   	text-transform: uppercase;
   	text-decoration:none;
-	}
-	.nav a:hover {
-	background-color:#ABC5F4;
-	color:white;
 	}
 	.clearfix a:hover {
 	background-color: #061736;
@@ -377,30 +374,30 @@ ul {
 @media only screen and (max-width:800px) {
 
 	nav {
-	text-align:center;
-	float:none;
-	font-family: 'Raleway', sans-serif;
-	font-size:1.5em;
 	margin-top:1%;
-	width:100%;
+	float:none;
 	}
 	.nav a {
+	text-align:center;
+	font-size:1.3em;
+	float:none;
 	font-family: 'Raleway', sans-serif;
   	text-decoration: none;
   	color: #aaaaaa;
-  	display: inline-block;
-  	padding: .5em;
-  	margin: 1em;
-  	font-size:1em;
+  	display: block;
+  	width:60%;
+  	padding: .7em;
+  	margin: auto;
+  	margin-top:1em;
   	background-color:#061736;
   	color: white;
   	text-transform: uppercase;
   	text-decoration:none;
-}
-.nav a:hover {
+	}
+	.nav a:hover {
 	background-color:#ABC5F4;
 	color:white;
-}
+	}
 	.logo img {
 		width:65%;
 		padding-top:3%;
@@ -429,23 +426,23 @@ ul {
 		width:80%;
 		margin:2% 10%;
 		clear:both;
-}
-.zodiacbanner img {
+	}
+	.zodiacbanner img {
 	display:none;
-}
-.responsivezodiac img {
+	}
+	.responsivezodiac img {
 	display:block;
 	width:80%;
 	margin:3% 10%;
-}
-.column1, .column2 {
+	}
+	.column1, .column2 {
 	display:none;
-}
-.column3 {
+	}
+	.column3 {
 	width:40%;
 	margin:2% 5%;
-}
-.column4 {
+	}
+	.column4 {
 	width: 40%;
 	margin:2% 5%;
 }

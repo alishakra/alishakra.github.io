@@ -218,6 +218,7 @@ ul {
 	float:none;
 	}
 	.nav a {
+	text-align:center;
 	font-size:1.3em;
 	float:none;
 	font-family: 'Raleway', sans-serif;
@@ -310,6 +311,7 @@ ul {
 	float:none;
 	}
 	.nav a {
+	text-align:center;
 	font-size:1.3em;
 	float:none;
 	font-family: 'Raleway', sans-serif;
