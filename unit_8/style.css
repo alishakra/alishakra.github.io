@@ -183,81 +183,6 @@ li {
 ul {
 	list-style:none;
 }
-@media only screen and (max-width:340px) {
-	nav {
-	margin-top:1%;
-	float:none;
-	}
-	.nav a {
-	font-size:1.3em;
-	float:none;
-	font-family: 'Raleway', sans-serif;
-  	text-decoration: none;
-  	color: #aaaaaa;
-  	display: block;
-  	width:60%;
-  	padding: .7em;
-  	margin: auto;
-  	margin-top:1em;
-  	background-color:#061736;
-  	color: white;
-  	text-transform: uppercase;
-  	text-decoration:none;
-	}
-	.nav a:hover {
-	background-color:#ABC5F4;
-	color:white;
-	}
-	.clearfix a {
-	float:none;
-	clear:both;
-	font-family: 'Raleway', sans-serif;
-  	text-decoration: none;
-  	color: #aaaaaa;
-  	font-size:.5em;
-  	padding: .5em;
-  	margin:3%;
-  	background-color: #ABC5F4;
-  	color: white;
-  	text-transform: uppercase;
-	}
-	.logo img {
-		width:72%;
-		padding-top:5%;
-		padding-bottom:3%;
-	}
-	.shopicon img {
-		float:right;
-	}
-	.secondbanner img {
-		float:none;
-		width:50px;
-	}
-	.shop1 img {
-		width:80%;
-		margin:2% 10%;
-		clear:both;
-	}
-	.zodiacbanner img {
-		display:none;
-	}
-	.responsivezodiac img {
-		display:block;
-		width:80%;
-		margin:5%;
-	}
-	.column1, .column2 {
-		display:none;
-	}
-	.column3 {
-		width:40%;
-		margin:2% 5%;
-	}
-	.column4 {
-		width: 40%;
-		margin:2% 5%;
-	}
-	}
 
 @media only screen and (max-width:800px) {
 	label {
@@ -342,4 +267,79 @@ ul {
 	width: 40%;
 	margin:2% 5%;
 }
+@media only screen and (max-width:340px) {
+	nav {
+	margin-top:1%;
+	float:none;
+	}
+	.nav a {
+	font-size:1.3em;
+	float:none;
+	font-family: 'Raleway', sans-serif;
+  	text-decoration: none;
+  	color: #aaaaaa;
+  	display: block;
+  	width:60%;
+  	padding: .7em;
+  	margin: auto;
+  	margin-top:1em;
+  	background-color:#061736;
+  	color: white;
+  	text-transform: uppercase;
+  	text-decoration:none;
+	}
+	.nav a:hover {
+	background-color:#ABC5F4;
+	color:white;
+	}
+	.clearfix a {
+	float:none;
+	clear:both;
+	font-family: 'Raleway', sans-serif;
+  	text-decoration: none;
+  	color: #aaaaaa;
+  	font-size:.5em;
+  	padding: .5em;
+  	margin:3%;
+  	background-color: #ABC5F4;
+  	color: white;
+  	text-transform: uppercase;
+	}
+	.logo img {
+		width:72%;
+		padding-top:5%;
+		padding-bottom:3%;
+	}
+	.shopicon img {
+		float:right;
+	}
+	.secondbanner img {
+		float:none;
+		width:50px;
+	}
+	.shop1 img {
+		width:80%;
+		margin:2% 10%;
+		clear:both;
+	}
+	.zodiacbanner img {
+		display:none;
+	}
+	.responsivezodiac img {
+		display:block;
+		width:80%;
+		margin:5%;
+	}
+	.column1, .column2 {
+		display:none;
+	}
+	.column3 {
+		width:40%;
+		margin:2% 5%;
+	}
+	.column4 {
+		width: 40%;
+		margin:2% 5%;
+	}
+
 }

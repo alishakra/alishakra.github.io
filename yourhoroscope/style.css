@@ -211,14 +211,95 @@ li {
 ul {
 	list-style:none;
 }
+@media only screen and (max-width:800px) {
+	label {
+		display:block;
+		font-size:1.3em;
+		float:none;
+		font-family: 'Raleway', sans-serif;
+	  	text-decoration: none;
+	  	color: #aaaaaa;
+	  	display: block;
+	  	width:60%;
+	  	padding: .7em;
+	  	margin: auto;
+	  	margin-top:1em;
+	  	background-color:#061736;
+	  	color: white;
+	  	text-transform: uppercase;
+	  	text-decoration:none;
+	  	cursor:pointer;
+	}
+	nav {
+	margin-top:1%;
+	float:none;
+	}
+	.nav {
+		display:none;
+	}
+	#menu:checked + .nav {
+		display:block;
+	}
+	.nav a {
+	font-size:1.3em;
+	float:none;
+	font-family: 'Raleway', sans-serif;
+  	text-decoration: none;
+  	color: #aaaaaa;
+  	display: block;
+  	width:60%;
+  	padding: .7em;
+  	margin: auto;
+  	margin-top:1em;
+  	background-color:#061736;
+  	color: white;
+  	text-transform: uppercase;
+  	text-decoration:none;
+	}
+	.nav a:hover {
+	background-color:#ABC5F4;
+	color:white;
+	}
+	.logo img {
+		width:65%;
+		padding-top:3%;
+		padding-bottom:3%;
+	}
+	.secondbanner img {
+		float:none;
+		width:50px;
+	}
+	.shop1 img {
+		width:80%;
+		margin:2% 10%;
+		clear:both;
+}
+.zodiacbanner img {
+	display:none;
+}
+.responsivezodiac img {
+	display:block;
+	margin:auto;
+	width:80%;
+	margin-top:5%;
+}
+.column1, .column2 {
+	display:none;
+}
+.column3 {
+	width:40%;
+	margin:2% 5%;
+}
+.column4 {
+	width: 40%;
+	margin:2% 5%;
+}
 @media only screen and (max-width:340px) {
-
 	nav {
 	margin-top:1%;
 	float:none;
 	}
 	.nav a {
-	text-align:center;
 	font-size:1.3em;
 	float:none;
 	font-family: 'Raleway', sans-serif;
@@ -268,28 +349,13 @@ ul {
 		margin:2% 10%;
 		clear:both;
 	}
-	.shop2 img {
-		width:80%;
-		margin:2% 10%;
-		clear:both;
-	}
-	.shop3 img {
-		width:80%;
-		margin:2% 10%;
-		clear:both;
-		}
-	.shop4 img {
-		width:80%;
-		margin:2% 10%;
-		clear:both;
-	}
 	.zodiacbanner img {
 		display:none;
 	}
 	.responsivezodiac img {
 		display:block;
 		width:80%;
-		margin:3% 10%;
+		margin:5%;
 	}
 	.column1, .column2 {
 		display:none;
@@ -302,81 +368,5 @@ ul {
 		width: 40%;
 		margin:2% 5%;
 	}
-	}
 
-@media only screen and (max-width:800px) {
-
-	nav {
-	margin-top:1%;
-	float:none;
-	}
-	.nav a {
-	text-align:center;
-	font-size:1.3em;
-	float:none;
-	font-family: 'Raleway', sans-serif;
-  	text-decoration: none;
-  	color: #aaaaaa;
-  	display: block;
-  	width:60%;
-  	padding: .7em;
-  	margin: auto;
-  	margin-top:1em;
-  	background-color:#061736;
-  	color: white;
-  	text-transform: uppercase;
-  	text-decoration:none;
-	}
-	.nav a:hover {
-	background-color:#ABC5F4;
-	color:white;
-	}
-	.logo img {
-		width:65%;
-		padding-top:3%;
-		padding-bottom:3%;
-	}
-	.secondbanner img {
-		float:none;
-		width:50px;
-	}
-	.shop1 img {
-		width:80%;
-		margin:2% 10%;
-		clear:both;
-	}
-	.shop2 img {
-		width:80%;
-		margin:2% 10%;
-		clear:both;
-	}
-	.shop3 img {
-		width:80%;
-		margin:2% 10%;
-		clear:both;
-		}
-	.shop4 img {
-		width:80%;
-		margin:2% 10%;
-		clear:both;
-}
-.zodiacbanner img {
-	display:none;
-}
-.responsivezodiac img {
-	display:block;
-	width:80%;
-	margin:3% 10%;
-}
-.column1, .column2 {
-	display:none;
-}
-.column3 {
-	width:40%;
-	margin:2% 5%;
-}
-.column4 {
-	width: 40%;
-	margin:2% 5%;
-}
 }
