@@ -21,6 +21,12 @@ body {
 	display:inline;
 	padding:1em;
 }
+label {
+	display:none;
+}
+#menu {
+	display:none;
+}
 nav {
 	text-align:center;
 	margin-top:1%;
@@ -178,7 +184,6 @@ ul {
 	list-style:none;
 }
 @media only screen and (max-width:340px) {
-
 	nav {
 	margin-top:1%;
 	float:none;
@@ -255,10 +260,33 @@ ul {
 	}
 
 @media only screen and (max-width:800px) {
-
+	label {
+		display:block;
+		font-size:1.3em;
+		float:none;
+		font-family: 'Raleway', sans-serif;
+	  	text-decoration: none;
+	  	color: #aaaaaa;
+	  	display: block;
+	  	width:60%;
+	  	padding: .7em;
+	  	margin: auto;
+	  	margin-top:1em;
+	  	background-color:#061736;
+	  	color: white;
+	  	text-transform: uppercase;
+	  	text-decoration:none;
+	  	cursor:pointer;
+	}
 	nav {
 	margin-top:1%;
 	float:none;
+	}
+	.nav {
+		display:none;
+	}
+	#menu:checked + .nav {
+		display:block;
 	}
 	.nav a {
 	font-size:1.3em;
