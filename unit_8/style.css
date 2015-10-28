@@ -267,7 +267,9 @@ ul {
 	width: 40%;
 	margin:2% 5%;
 }
+}
 @media only screen and (max-width:340px) {
+
 	nav {
 	margin-top:1%;
 	float:none;

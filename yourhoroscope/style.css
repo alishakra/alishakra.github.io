@@ -21,6 +21,12 @@ body {
 	display:inline;
 	padding:1em;
 }
+label {
+	display:none;
+}
+#menu {
+	display:none;
+}
 nav {
 	float:left;
 	margin-top:1%;
@@ -213,6 +219,7 @@ ul {
 }
 @media only screen and (max-width:800px) {
 	label {
+		text-align:center;
 		display:block;
 		font-size:1.3em;
 		float:none;
@@ -231,6 +238,7 @@ ul {
 	  	cursor:pointer;
 	}
 	nav {
+	text-align:center;
 	margin-top:1%;
 	float:none;
 	}
@@ -293,6 +301,7 @@ ul {
 .column4 {
 	width: 40%;
 	margin:2% 5%;
+}
 }
 @media only screen and (max-width:340px) {
 	nav {

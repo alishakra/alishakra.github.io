@@ -21,6 +21,12 @@ body {
 	display:inline;
 	padding:1em;
 }
+label {
+	display:none;
+}
+#menu {
+	display:none;
+}
 nav {
 	text-align:center;
 	margin-top:1%;
@@ -275,8 +281,10 @@ ul {
 	width: 40%;
 	margin:2% 5%;
 }
+}
 @media only screen and (max-width:340px) {
 	nav {
+	text-align:center;
 	margin-top:1%;
 	float:none;
 	}
